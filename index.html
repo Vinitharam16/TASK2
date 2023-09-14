@@ -4,38 +4,232 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Food Landing Page</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="box">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="box-part text-center">
-            <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
-            <h4>Instagram</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium suscipit similique ut molestiae </p>
-            <a href="#">Lorem Ipsum</a>
+  <header>
+      <nav>
+        <div class="d-flex flex-row bd-highlight mb-3 justify-content-between" style=" height: 90px;">
+          <div class="heading">Hot Meals</div>
+          <div style="align-items: center;">
+            <p>
+              <strong class="deliver">Deliver to:</strong>
+              <span>
+                <i class="fa fa-map-marker" aria-hidden="true" style="color: rgba(255, 179, 14, 1); width: 14px; height: 25px;"></i>
+              </span>
+              <span class="location">
+                Current Location
+              </span>
+              <span class="ashoknagar">
+                Ashok Nagar, Chennai-600013
+              </span>
+            </p>
+          </div>
+          <div>
+            <i class="fa fa-search" aria-hidden="true" style="color: rgba(255, 179, 14, 1); width: 18px; height: 18px;"></i>
+            <button type="button" class="btn btn-link" style="color: rgba(66, 66, 66, 1) ;">
+              <span class="search-food">
+                Search Food
+              </span>
+            </button>
+            <button type="button" class="btn btn-outline-warning">
+              <span class="search-food">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                Login
+              </span>
+            </button>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="box-part text-center">
-            <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
-            <h4>Instagram</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium suscipit similique ut molestiae </p>
-            <a href="#">Lorem Ipsum</a>
+      </nav>  
+  </header>
+
+  <div class="card mb-3" style="max-width: 100%; background-color: #FDBE35; height: 632px;">
+    <div class="row no-gutters">
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="fav-meals">Look at your fav Meals</h5>
+          <p class="sub-heading">Within a few clicks, find meals that are accessible near you</p>
+          <div class="sub-heading-box1">
+            <button type="button" class="btn btn-light" style="background-color: rgba(241, 114, 40, 0.1);">
+              <span>
+                <i class="fa fa-motorcycle" aria-hidden="true" style="color:rgba(241, 114, 40, 1);"></i>
+              </span>
+              <span class="delivery">Delivery</span>
+            </button>
+            <span>
+              <button type="button" class="btn btn-light">
+                <span>
+                  <i class="fa fa-shopping-bag" aria-hidden="true" style="color:rgba(117, 117, 117, 1);"></i>
+                </span>
+                <span class="pickup">Pickup</span>
+              </button>
+            </span>
+          </div>
+          <div class="sub-heading-box1">
+            <span>
+              <form class="form-inline">
+                <input class="form-control mr-sm-2 enter-search" type="search" placeholder="Enter Your Address" aria-label="Search" style="width: 593px;">
+                <button type="button" class="btn btn-primary" style="background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%); width:199px; height: 60px; border-radius: 8px; padding:21px, 48px, 21px, 48px; gap: 10px;">
+                  <i class="fa fa-search" aria-hidden="true" style="color: rgba(255, 255, 255, 1); width: 14px; height: 14px;"></i>
+                  <span class="find-food">
+                    Find Food
+                  </span>
+                </button>
+              </form>
+            </span>
           </div>
         </div>
       </div>
+      <div class="col-md-4">
+        <img src="img\main food.png" alt="main food" style="object-fit:fill; width: 524px; height: 424px; margin-top: 125px; margin-left: -30px;">
+      </div>
     </div>
   </div>
+
+  <p>vinitha</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div id="yellow-container" style="width: 100%;">
+  <div class="card mb-3" style="max-width: 100%; background-color: #FDBE35; height: 632px;">
+    <div class="row no-gutters">
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="fav-meals">Look at your fav Meals</h5>
+          <p class="sub-heading">Within a few clicks, find meals that are accessible near you</p>
+          <div class="sub-heading-box1">
+            <button type="button" class="btn btn-light" style="background-color: rgba(241, 114, 40, 0.1);">
+              <span>
+                <i class="fa fa-motorcycle" aria-hidden="true" style="color:rgba(241, 114, 40, 1);"></i>
+              </span>
+              <span class="delivery">Delivery</span>
+            </button>
+            <span>
+              <button type="button" class="btn btn-light">
+                <span>
+                  <i class="fa fa-shopping-bag" aria-hidden="true" style="color:rgba(117, 117, 117, 1);"></i>
+                </span>
+                <span class="pickup">Pickup</span>
+              </button>
+            </span>
+          </div>
+          <div class="sub-heading-box1">
+            <span>
+              <form class="form-inline">
+                <input class="form-control mr-sm-2 enter-search" type="search" placeholder="Enter Your Address" aria-label="Search" style="width: 593px;">
+                <button type="button" class="btn btn-primary" style="background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%); width:199px; height: 60px; border-radius: 8px; padding:21px, 48px, 21px, 48px; gap: 10px;">
+                  <i class="fa fa-search" aria-hidden="true" style="color: rgba(255, 255, 255, 1); width: 14px; height: 14px;"></i>
+                  <span class="find-food">
+                    Find Food
+                  </span>
+                </button>
+              </form>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="img\main food.png" alt="main food" style="object-fit:fill; width: 524px; height: 424px;">
+      </div>
+    </div>
+  </div>
+</div> -->
+
+    
+      
+
+    
+
+
+    
+
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+  <div class="box">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+              <div class="box-part text-center">
+                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                <h4>Instagram</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, iusto? Nulla obcaecati sint accusamus.</p>
+                <a href="#">Learn more</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box-part text-center">
+                    <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+                  <h4>Twitter</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, iusto? Nulla obcaecati sint accusamus.</p>
+                  <a href="#">Learn more</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="box-part text-center">
+                    <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+                  <h4>Facebook</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, iusto? Nulla obcaecati sint accusamus.</p>
+                  <a href="#">Learn more</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="box-part text-center">
+                    <i class="fa fa-pinterest-p fa-3x" aria-hidden="true"></i>
+                  <h4>Pinterest</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, iusto? Nulla obcaecati sint accusamus.</p>
+                  <a href="#">Learn more</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="box-part text-center">
+                    <i class="fa fa-google-plus fa-3x" aria-hidden="true"></i>
+                  <h4>Google</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, iusto? Nulla obcaecati sint accusamus.</p>
+                  <a href="#">Learn more</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="box-part text-center">
+                    <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                  <h4>Github</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, iusto? Nulla obcaecati sint accusamus.</p>
+                  <a href="#">Learn more</a>
+                </div>
+              </div>
+        </div>
+    </div>
+   </div> -->
 
 </body>
 
