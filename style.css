@@ -268,9 +268,6 @@ color: rgba(255, 255, 255, 1);
 }
 
 
-
-
-
 .proceed{
     font-family: Source Sans Pro;
 font-size: 18px;
@@ -279,8 +276,82 @@ line-height: 18px;
 letter-spacing: 0em;
 text-align: center;
 color: rgba(255, 255, 255, 1);
-
 }
+
+
+footer{
+    background-color: rgba(9, 13, 18, 1);
+}
+
+
+.follow{
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(245, 245, 245, 1);
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.receive{
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(187, 187, 187, 1);
+margin-bottom: 40px;
+margin-top: 40px;
+}
+
+
+.enter-email{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+color: rgba(173, 173, 173, 1);
+background-color: rgba(66, 66, 66, 1);
+}
+
+.subscribe{
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}
+
+.footer-menu{
+font-family: Source Sans Pro;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.footer-list{
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(245, 245, 245, 1);
+margin-bottom: 16px;
+}
+
 /* .box-part{
     background-color: white;
     margin-top:60px;
