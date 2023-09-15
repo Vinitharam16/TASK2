@@ -140,6 +140,130 @@ line-height: 18px;
 letter-spacing: 0em;
 text-align: center;
 color: rgba(255, 255, 255, 1);
+}
+
+.menu-food{
+font-family: Source Sans Pro;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(66, 66, 66, 1);
+margin-top: 30px;
+}
+
+.minsdelivery{
+font-family: Source Sans Pro;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(241, 114, 40, 1);
+}
+
+.howdoes{
+font-family: Source Sans Pro;
+font-size: 43px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(241, 114, 40, 1);
+margin-top: 100px;
+margin-bottom: 50px;
+}
+
+.howdoes-box{
+    width: 1100px;
+    height: 200px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 27px 11px rgba(255, 181, 21, 0.1);
+    align-items: center;
+
+}
+
+.daily-discount{
+font-family: Source Sans Pro;
+font-size: 35px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+color:rgba(251, 60, 0, 1);
+}
+
+.dosa{
+font-family: Source Sans Pro;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+color: rgba(66, 66, 66, 1);
+}
+
+.best-deals{
+font-family: Source Sans Pro;
+font-size: 43px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 179, 14, 1);
+}
+.enjoy{
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(97, 97, 97, 0.69);
+}
+.search-by-food{
+font-family: Source Sans Pro;
+font-size: 43px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(33, 33, 33, 1);
+margin-bottom: 35px;
+}
+
+.popular-items{
+font-family: Source Sans Pro;
+font-size: 43px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(33, 33, 33, 1);
+margin-top: 100px;
+margin-bottom: 80px;
+}
+
+.sub-food{
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(66, 66, 66, 1);
+margin-top: 30px;
+}
+
+.order-now{
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(255, 255, 255, 1);
 
 }
 
@@ -147,10 +271,16 @@ color: rgba(255, 255, 255, 1);
 
 
 
+.proceed{
+    font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 900;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(255, 255, 255, 1);
 
-
-
-
+}
 /* .box-part{
     background-color: white;
     margin-top:60px;
